@@ -21,7 +21,7 @@ class RepoWelcomeTests(unittest.TestCase):
             report = audit_repository(Path(temporary))
             issue = render_issue(report)
             self.assertIn("- [ ] **README**", issue)
-            self.assertIn("RepoWelcome score", issue)
+            self.assertIn("RepoWelcome 점수", issue)
 
     def test_cli_threshold(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -30,4 +30,3 @@ class RepoWelcomeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
