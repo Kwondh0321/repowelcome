@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repowelcome"
+version = "0.1.0"
+description = "Audit how ready an open-source repository is for new contributors"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Kwondh0321" }]
+keywords = ["open-source", "contributors", "repository", "community", "audit"]
+
+[project.scripts]
+repowelcome = "repowelcome.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
