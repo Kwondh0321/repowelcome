@@ -1,6 +1,6 @@
 # RepoWelcome
 
-[한국어](README.md) | English
+[한국어](README.md) | English | [Changelog / 변경 기록](CHANGELOG.md)
 
 RepoWelcome audits whether an open-source repository is ready for a first-time contributor. It scores community documents, CI, tests, dependency reproducibility, README onboarding, and executable test commands, and can generate an improvement issue draft.
 
